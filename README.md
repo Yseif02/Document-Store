@@ -1,6 +1,6 @@
 # Document Store
 
-A Java document store with ranked text search, metadata queries, undo, and disk-backed memory management. Built as a data structures course project at Yeshiva University, it brings together custom implementations of a B-tree, trie, min-heap, and stack behind one API.
+A Java document store with ranked text search, metadata queries, undo, and disk-backed memory management. It brings together custom implementations of a B-tree, trie, min-heap, and stack behind one API.
 
 Documents are identified by a `URI` and can contain either plain text or binary data. The store keeps frequently used documents in memory and moves least recently used documents to disk when a configured limit is reached.
 
